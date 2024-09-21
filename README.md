@@ -19,3 +19,18 @@ To run this app locally, follow these steps:
     Navigate to the project directory and run:
    ```bash
    npm start
+
+## Backend Repo Link-  
+https://github.com/ManuSaini9084/Donate-Backend
+
+To run the server locally, follow these steps:
+
+1. **Install Dependencies**:
+   Navigate to the project directory and run:
+   ```bash
+   npm install
+
+2. **Run Backend**
+    Navigate to the project directory and run:
+   ```bash
+   npde server.js
