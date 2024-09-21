@@ -16,5 +16,6 @@ To run this app locally, follow these steps:
    npm install
 
 2. **Run Frontend**
-
-     npm start
+    Navigate to the project directory and run:
+   ```bash
+   npm start
