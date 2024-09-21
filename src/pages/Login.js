@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import authService from '../services/authService';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = ({ onLogin }) => {
   const [credentials, setCredentials] = useState({ email: '', password: '' });
@@ -16,10 +18,12 @@ const Login = ({ onLogin }) => {
     try {
       const response = await authService.login(credentials);
       console.log('Login successful:', response);
+      toast.success("User logged in successfully!");
       onLogin();
       navigate('/user-dashboard');
     } catch (error) {
       console.error('Login failed:', error.response?.data || error.message);
+      toast.error("Login failed. Please check your credentials.");
     }
   };
 
@@ -51,6 +55,7 @@ const Login = ({ onLogin }) => {
           </button>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };

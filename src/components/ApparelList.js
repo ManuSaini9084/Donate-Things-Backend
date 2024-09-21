@@ -4,7 +4,7 @@ import { getApparels } from '../services/apparelService';
 const ApparelList = () => {
   const [apparelList, setApparelList] = useState([]);
   const [loading, setLoading] = useState(true);
-  const baseURL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+  const baseURL = process.env.REACT_APP_API_URL || 'https://donate-backend-1ygj.onrender.com';
 
   useEffect(() => {
     const fetchApparel = async () => {

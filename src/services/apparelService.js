@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/apparel';
+const API_URL = 'https://donate-backend-1ygj.onrender.com/api/apparel';
 
 export const submitApparel = async (data) => {
   const response = await axios.post(`${API_URL}/submit`, data);

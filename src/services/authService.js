@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://donate-backend-1ygj.onrender.com/api/auth';
 
 const authService = {
   registerUser: async (data) => {
