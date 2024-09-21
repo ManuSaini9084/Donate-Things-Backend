@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://donate-backend-1ygj.onrender.com/api/blog';
+const API_URL = 'https://donate-backend-1.onrender.com/api/blog';
 
 export const getBlogPosts = async () => {
   const response = await axios.get(`${API_URL}/`);

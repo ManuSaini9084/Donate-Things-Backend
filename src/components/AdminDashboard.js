@@ -85,7 +85,7 @@ const AdminDashboard = () => {
               </div>
               {item.imageUrl && (
                 <img 
-                  src={`https://donate-backend-1ygj.onrender.com${item.imageUrl}`} 
+                  src={`https://donate-backend-1.onrender.com${item.imageUrl}`} 
                   alt={item.description} 
                   className="w-32 h-32 object-cover rounded" 
                 />
