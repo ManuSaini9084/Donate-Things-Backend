@@ -1,3 +1,5 @@
+# DEPLOYED LINK - https://donate-things-frontend.vercel.app/
+
 # Apparel Platform
 
 This project is an **Apparel Platform** designed to facilitate the management of apparel items. It includes features for user authentication, registration, and an admin dashboard for managing apparel listings. The app is built using React for the frontend and integrates with a backend service for data handling.
